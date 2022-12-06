@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="/css/AcercaDeNosotros.css">
+    <title>Nosotros</title>
+</head>
+
+<body>
+    
+    {{> header}}
+
+    <main>
+        <h1>Acerca de nosotros...</h1>
+        <!-- TEXTO "Qué es y por qué nace ConurbanApp?" -->
+        <div class="queEsConurbanApp card mb-3 shadow-lg">
+            <div class="contenedorQueEsConurbanApp row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 1.4em;">¿Qué es y por qué nace ConurbanApp?</h5>
+                        <p class="card-text" style="font-size: 20px;">
+                            ConurbanApp nace a partir de la idea de crear un proyeto intregrador que refleje los conocimientos adquiridos a lo largo de los cursos que fuimos tomando gracias a las becas de <a href="https://www.pescar.org.ar/" style="color:black; font-style:italic; font-size: 1em" target="_blank">Fundación pescar</a> junto a <a href="https://www.jpmorgan.com/AR/en/about-us" style="color:black; font-style:italic; font-size: 1em;" target="_blank">JP Morgan</a> en la plataforma de <a href="https://www.educacionit.com/" style="color:black; font-style:italic; font-size: 1em;" target="_blank">Educación IT</a>. <br>
+                            ¿Cuál fue nuestro impulso para crear esta página? Bueno, ConurbanApp busca traerle a la comunidad una alternativa para esas escapadas de fines de semana. Dentro de Conurban vas a poder encontrar diferentes sitios a lo largo del Conurbano Bonaerense que te harán vivir y explorar las zonas más lindas pero menos conocidas de Buenos Aires.
+                            <h6 style="font-size: 1.1em;text-align: center; font-style:italic;">¿Por qué quedarse sólo en capital cuando hay tanto por vivir en el conurbano?</h6>
+                        </p>
+                    </div>
+                </div>
+                <div class="imgNosotros col-4">
+                    <img src="img/logo2.0.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <!-- MISIÓN, VISIÓN Y VALORES -->
+        <!-- Opción 1 -->
+        <div id="carouselExampleDark" class="misionVisionValores carousel carousel-dark slide shadow-lg container-fluid" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <h5>Misión</h5>
+                    <p class="textoCarousel">Buscamos despertar en cada persona el interés y curiosidad por todo lo que tienen para ofrecer nuestros amados barrios del Conurbano. 
+                    </p>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <h5>Visión</h5>
+                    <p class="textoCarousel">Nuestra visión es acercar de una manera sencilla y amigable los mejores eventos y lugares dentro del Conurbano.
+                    </p>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <h5>Valores</h5>
+                    <p class="textoCarousel">Apoyamos la libre expresión siempre y cuando sea con respeto, por esta razón, cada usuario registrado podrá navegar en nuestro sitio y dejar comentarios en las publicaciónes de cada lugar que desee. Además podrá añadir aquellos que llamen su atención a una lista de favoritos. Creemos firmemente en el trabajo en equipo, en crear una plataforma cómoda y amigable, somos transparentes.
+                    </p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Conocenos! -->
+        <section class="conocenos">
+            <h4>Conocenos!</h4>
+            <div class="cardsNosotros card-group">
+
+                <div class="Claudia card">
+                    <img src="img/clau.jpg" class="img-fluid rounded-img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Claudia Chauque</h5>
+                      <p class="card-text">Tengo 24 años, vivo en el barrio de La Boca, y me estoy formando para ser Software y Full Stack Developer. Me destaco por ser una persona adaptable a los cambios que tolera la frustración, y sobre todo, resiliente.</p>
+                      <a href="https://www.linkedin.com/in/claudia-chauque-0b175a223" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="Emilia card">
+                  <img src="img/emi.png" class="img-fluid rounded-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Emilia Rodríguez Moreno</h5>
+                    <p class="card-text">¡Hola! Soy Emilia, un pingüino de Magallanes viviendo en CABA, tengo 27 años, trabajo como Tester Manual y me estoy formando como Desarrolladora Full Stack.</p>
+                    <a href="https://www.linkedin.com/in/emilia-rodriguez-moreno" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+
+                <div class="Tomas card">
+                  <img src="img/tomi.png" class="img-fluid rounded-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Tomas Godoy</h5>
+                    <p class="card-text">¡Hola! Soy Tomas, tengo 19 años y me estoy formando para ser Programador Full Stack. Soy una persona que se adapta bien a distintos ambientes, me encanta el trabajo en equipo y me apaciona la tecnología.</p>
+                    <a href="https://www.linkedin.com/in/rodrigo-tomas-godoy/"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+
+                <div class="Saul card">
+                  <img src="img/saul.jpeg" class="img-fluid rounded-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Saul Huanca Sánchez</h5>
+                    <p class="card-text">Saúl Huanca Sánchez Desarrollador front Futuro desarrollador full stack , con ganas de entrar al mundo laboral it, con capacidad de adaptación y administración de tiempo y manejo de frustración.</p>
+                    <a href="https://www.linkedin.com/in/saul-huanca-sanchez-809239143/"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    {{> footer}}
+
+</body>
+</html>
